@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="form">
+            <div class="title">
+                Login to Code with sadiQ
+            </div>
+            <form action="" onsubmit="return validate()">
+                <div class="input-wrap">
+                    <label for="input-text">Email or username</label>
+                    <div class="input-field" >
+                        <input type="text" id="input-text" class="input">
+                    </div>
+                </div>
+                <div class="input-wrap">
+                    <label for="input-password">Password</label>
+                    <div class="input-field" >
+                        <input type="password" id="input-password" class="input">
+                    </div>
+                </div>
+                <div class="input-wrap">
+                    <span class="error_msg">Incorrect username or password Try again</span>
+                    <input type="submit" id="login-btn" class="btn disabled" value="Login" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
